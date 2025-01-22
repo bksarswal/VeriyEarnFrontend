@@ -10,8 +10,11 @@ import VerifyOtp from '../Screens/VerifyOtp';
 
 function AuthRouter() {
   return (
-    <>
-     
+    <>  <div className="min-h-screen flex flex-col">
+        {/* Navbar */}
+        <div className="absolute top-0 left-0 right-0 z-50">
+          <Navbar />
+        </div>
       <Routes>
      
         <Route path="/login" element={ <Login />  } />
@@ -20,7 +23,7 @@ function AuthRouter() {
         <Route path="/verifyotp" element={ <VerifyOtp />   } />
         <Route path="/login" element={ <Login />  } />
       </Routes>
-
+      </div>
     </>
   )
 }

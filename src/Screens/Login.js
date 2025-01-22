@@ -67,7 +67,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center  py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen  mt-16 flex items-center justify-center  py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full bg-white rounded-[30px] bg-[#F2FAFA] p-8 relative">
         {/* Close button */}
         <button className="absolute top-6 right-6 text-black hover:text-gray-700">

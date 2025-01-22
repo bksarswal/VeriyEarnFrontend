@@ -25,7 +25,7 @@ const Footer = () => {
               Looking to earn extra income from home? Verify Earn offers flexible opportunities to help you boost your earnings effortlessly.
             </p>
             <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 sm:px-6 sm:py-2 rounded-md transition-colors">
-              Register Now
+             <Link to="/signup"> Register Now</Link>
             </button>
           </div>
 

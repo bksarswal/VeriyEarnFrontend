@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import DashbordNavbar from '../Layout/DasbordNavbar/DashborNavmain/DashbordNavmain';
-import Dashboard from '../Screens/Dashboard/Dashboard';
+import Dashboard from '../Screens/Dashboard/DashboardHome';
 
 function Dashboardrouter() {
   return (

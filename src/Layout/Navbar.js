@@ -30,7 +30,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            to="/how-it-works"
+            to="/home"
             className="text-[16px] lg:text-[20px] text-[#252525] hover:text-gray-700 transition-colors font-bold font-poppins"
           >
             How it&apos;s Work
