@@ -12,7 +12,7 @@ function DashbordNavbar() {
   };
 
   return (
-    <header className="relative w-full bg-white py-4">
+    <header className="fixed top-0 left-0 w-full bg-white  py-5 shadow-sm z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3 bg-white rounded-[50px] border border-black shadow-[0px_4px_4px_#00000040]">
         {/* Logo and Title */}
         <div className="flex items-center">
@@ -89,7 +89,7 @@ function DashbordNavbar() {
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 ease-in-out`}
+        } transition-transform duration-300 ease-in-out z-50`}
       >
         <button
           className="absolute top-4 right-4 p-2 rounded-md bg-gray-100 hover:bg-gray-200"

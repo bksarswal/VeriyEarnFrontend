@@ -15,7 +15,7 @@ function CombineRouter() {
      
 
         {/* Conditionally Render Routes */}
-        <div className="flex-1">
+        
           {auth ? (
             <DashboardRouter />
           ) : (
@@ -24,7 +24,7 @@ function CombineRouter() {
               <AuthRouter />
             </>
           )}
-        </div>
+        
     
 
       {/* Footer */}

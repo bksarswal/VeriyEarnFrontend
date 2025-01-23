@@ -38,7 +38,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-8">
+    <div className="min-h-screen mt-24  bg-gray-100 py-8">
       <div className="max-w-7xl  mx-auto bg-white shadow-lg rounded-xl p-6">
         <table className="min-w-full border-collapse border border-gray-300">
           <thead>
