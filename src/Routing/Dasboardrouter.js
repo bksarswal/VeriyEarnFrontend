@@ -8,11 +8,11 @@ function Dashboardrouter() {
   return (
     <>
       {/* Add the Dashboard Navbar */}
-      <DashbordNavbar />
+      <DashbordNavbar/>
       
       {/* Define Routes */}
       <Routes>
-        <Route path="/" element={<Dashboard/>} />
+        <Route path="/dashbord" element={<Dashboard/>} />
       </Routes>
     </>
   );
